@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Meho's Farmhouse</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .choice-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 80px;
+            flex-wrap: wrap;
+        }
+        
+        .choice-card {
+            width: 280px;
+            padding: 30px;
+            text-align: center;
+            background: #f9f9f9;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .choice-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .choice-card h2 {
+            margin-bottom: 15px;
+        }
+        
+        .choice-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .choice-card a:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Meho's farmhouse</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="team.html">Team</a>
+            <a href="registeration.html" class="active">Registeration</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h1 style="text-align:center; margin-top:40px;">Choose Your Registeration Type</h1>
+        <div class="choice-container">
+
+            <!-- Guest Registration -->
+            <div class="choice-card">
+                <h2>Guest Registeration</h2>
+                <p>Book a room and enjoy a luxury stay at Meho's Farmhouse.</p>
+                <a href="register-guest.html">Register as Guest</a>
+            </div>
+
+            <!-- Employee Registration -->
+            <div class="choice-card">
+                <h2>Employee Registeration</h2>
+                <p>Join our farmhouse team and become part of our family.</p>
+                <a href="register-employee.html">Register as Employee</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meho's Farmhouse | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
